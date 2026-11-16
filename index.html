@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salad Bowl — Zero-Decision Breakfast Salad Engine</title>
+
+    <!-- ==========================================
+        MIXPANEL SCRIPT
+       ========================================== -->
+    <script type="text/javascript">
+      (function(f, b) {
+        if (!b.__SV) {
+          var e, g, i, h;
+          window.mixpanel = b;
+          b._i = [];
+          b.init = function(e, f, c) {
+            function g(a, d) {
+              var b = d.split(".");
+              2 == b.length && (a = a[b[0]], d = b[1]);
+              a[d] = function() {
+                a.push([d].concat(Array.prototype.slice.call(arguments, 0)));
+              };
+            }
+            var a = b;
+            "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel");
+            a.ignite = a;
+            a.people = a.people || [];
+            a.toString = function(a) {
+              var b = "mixpanel";
+              return b;
+            };
+            a.ic = function(a) {
+              a.length && (a.forEach(function(d) {
+                g(a, d);
+              }));
+            };
+            i = "init track_links track_form set_config register register_once unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+            for (h = 0; h < i.length; h++) g(a, i[h]);
+            b._i.push([e, f, c]);
+          };
+          b.__SV = 1.2;
+          e = f.createElement("script");
+          e.type = "text/javascript";
+          e.async = !0;
+          e.src = "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+          g = f.getElementsByTagName("script")[0];
+          g.parentNode.insertBefore(e, g);
+        }
+      })(document, window.mixpanel || []);
+      mixpanel.init("6d547ac40ef6ba3c7766a0342c7e67c8", { debug: true, persistence: 'localStorage' });
+    </script>
+    <script type="module" crossorigin src="./assets/index-CZce4Gmi.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CSMmPdQr.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
